@@ -1,8 +1,8 @@
 import random
 
-# Function to generate tuple of two random numbers.
+# Function to generate tuple of two random single digit positive number.
 def random_tuple_gen():
-    #generates a single digit number from 0 to 9
+    #generates a single digit number from 1 to 9
     tup_num = (random.randrange(1, 10), random.randrange(1, 10))
     return tup_num
 
