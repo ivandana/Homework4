@@ -2,7 +2,7 @@ import random
 
 # Function to generate tuple of two random single digit positive number.
 def random_tuple_gen():
-    #generates a single digit number from 1 to 9
+    #generates tuple of two one digit number from 1 to 9
     tup_num = (random.randrange(1, 10), random.randrange(1, 10))
     return tup_num
 
