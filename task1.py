@@ -1,7 +1,7 @@
 import random
 
 def is_prime(integer):
-    if integer < 1:
+    if integer <= 1:
         return False
     for i in range(2,integer):
         if integer % i==0:        
